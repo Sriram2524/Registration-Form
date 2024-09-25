@@ -1,0 +1,92 @@
+/* Write your CSS code here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.heading {
+  font-size: 40px;
+  font-family: roboto;
+  font-weight: bold;
+  color: #ea580c;
+}
+.card {
+  border-radius: 6px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  margin: 20px;
+  padding: 35px;
+  width: 400px;
+  height: 300px;
+}
+@media (max-width: 767px) {
+  .card {
+    border-radius: 6px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+    padding: 35px;
+    width: 300px;
+    height: 300px;
+  }
+}
+
+.first-name-con {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.button-con {
+  text-align: center;
+  margin-top: 20px;
+}
+.button {
+  text-align: center;
+  background-color: #ea580c;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.label {
+  font-family: roboto;
+  font-size: 14px;
+  color: #475569;
+}
+.input {
+  width: 90%;
+  padding: 10px;
+  border: 2px solid #9aa5b1;
+  border-radius: 8px;
+}
+.formm {
+  width: 100%;
+}
+.error-msg {
+  color: #ff0b37;
+}
+.success-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.success-para {
+  color: #9aa5b1;
+}
+.success-button{
+  background-color: #ea580c;
+  color: white;
+  padding: 10px;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding-left: 20px;
+  padding-right: 20px;
+}
